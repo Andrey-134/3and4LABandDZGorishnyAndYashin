@@ -426,6 +426,11 @@ internal class Program
         //int losses = resultatt.Count(r => r == "loss");
         //Console.WriteLine($"Результаты игр: [{string.Join(", ", resultatt)}]");
         //Console.WriteLine($"Итог: {wins} побед и {losses} поражений\n");
+        //7
+        //int[] igrok = [15, 20, 25, 30, 10];
+        //double avg = igrok.Average();
+        //Console.WriteLine($"Очки за игры: [{string.Join(", ", igrok)}]");
+        //Console.WriteLine($"Среднее количество очков: {avg}\n");
 
 
 
