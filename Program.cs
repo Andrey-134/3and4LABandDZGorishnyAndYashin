@@ -420,6 +420,12 @@ internal class Program
         //}
 
         //Console.WriteLine("Самое быстрое время: " + fast + " секунд");
+        //6
+        //string[] resultatt = ["win", "loss", "win", "win", "loss"];
+        //int wins = resultatt.Count(r => r == "win");
+        //int losses = resultatt.Count(r => r == "loss");
+        //Console.WriteLine($"Результаты игр: [{string.Join(", ", resultatt)}]");
+        //Console.WriteLine($"Итог: {wins} побед и {losses} поражений\n");
 
 
 
