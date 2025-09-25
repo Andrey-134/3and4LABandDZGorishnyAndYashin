@@ -365,11 +365,20 @@ internal class Program
 
         //ДЗ
         //1
-        string[] items = { "sword", "shield", "potion", "sword", "potion", "potion" };
-        foreach (string item in items)
+        //string[] items = { "sword", "shield", "potion", "sword", "potion", "potion" };
+        //foreach (string item in items)
+        //{
+        //    Console.WriteLine(item);
+        //}
+
+        //2
+        int[] s = { 10, 20, 15, 30, 25 };
+        int total = 0;
+        foreach (int i in s)
         {
-            Console.WriteLine(item);
+            total += i;
         }
+        Console.WriteLine("Общее количество очков: " + total);
 
 
 
