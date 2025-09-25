@@ -394,19 +394,32 @@ internal class Program
 
         //Console.WriteLine("Максимальный элемент: " + max);
         //4
-        int[] nums = { 1, 2, 3, 4, 5 };
-        int ev = 0;
-        int od = 0;
+        //int[] nums = { 1, 2, 3, 4, 5 };
+        //int ev = 0;
+        //int od = 0;
 
-        foreach (int num in nums)
-        {
-            if (num % 2 == 0)
-                ev++;
-            else
-                od++;
-        }
+        //foreach (int num in nums)
+        //{
+        //    if (num % 2 == 0)
+        //        ev++;
+        //    else
+        //        od++;
+        //}
 
-        Console.WriteLine($"Чётных: {ev}, Нечётных: {od}");
+        //Console.WriteLine($"Чётных: {ev}, Нечётных: {od}");
+        //5
+        //int[] times = { 120, 95, 110, 105, 100 };
+        //int fast = times[0];
+
+        //foreach (int time in times)
+        //{
+        //    if (time < fast)
+        //    {
+        //        fast = time;
+        //    }
+        //}
+
+        //Console.WriteLine("Самое быстрое время: " + fast + " секунд");
 
 
 
