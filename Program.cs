@@ -443,6 +443,17 @@ internal class Program
         //    }
         //}
         //Console.WriteLine($"Обновленный инвентарь: [{string.Join(", ", inventory)}]\n");
+        //9
+        //string[] companions = ["Garrus", "Tali", "Mordin", "Grunt", "Jack"];
+        //string[] roles = ["Лидер команды", "Техник", "Биотик", "Солдат", "Поддержка"];
+
+        //Console.WriteLine("Распределение ролей для последней миссии:");
+        //Console.WriteLine("========================================");
+
+        //for (int i = 0; i < companions.Length; i++)
+        //{
+        //    Console.WriteLine($"{roles[i]}: {companions[i]}");
+        //}
 
 
 
