@@ -431,6 +431,18 @@ internal class Program
         //double avg = igrok.Average();
         //Console.WriteLine($"Очки за игры: [{string.Join(", ", igrok)}]");
         //Console.WriteLine($"Среднее количество очков: {avg}\n");
+        //8
+        //List<string> inventory = ["Меч", "Ласточка", "Бомба", "Зелье Гром", "Ласточка"];
+        //Console.WriteLine($"Исходный инвентарь: [{string.Join(", ", inventory)}]");
+
+        //for (int i = 0; i < inventory.Count; i++)
+        //{
+        //    if (inventory[i] == "Ласточка")
+        //    {
+        //        inventory[i] = "Кошка";
+        //    }
+        //}
+        //Console.WriteLine($"Обновленный инвентарь: [{string.Join(", ", inventory)}]\n");
 
 
 
