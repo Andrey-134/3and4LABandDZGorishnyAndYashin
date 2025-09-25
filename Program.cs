@@ -372,13 +372,27 @@ internal class Program
         //}
 
         //2
-        int[] s = { 10, 20, 15, 30, 25 };
-        int total = 0;
-        foreach (int i in s)
+        //int[] s = { 10, 20, 15, 30, 25 };
+        //int total = 0;
+        //foreach (int i in s)
+        //{
+        //    total += i;
+        //}
+        //Console.WriteLine("Общее количество очков: " + total);
+
+        //3
+        int[] numbers = { 1, 3, 7, 2, 5 };
+        int max = numbers[0];
+
+        foreach (int number in numbers)
         {
-            total += i;
+            if (number > max)
+            {
+                max = number;
+            }
         }
-        Console.WriteLine("Общее количество очков: " + total);
+
+        Console.WriteLine("Максимальный элемент: " + max);
 
 
 
