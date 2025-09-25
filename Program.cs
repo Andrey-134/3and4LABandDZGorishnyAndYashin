@@ -363,9 +363,16 @@ internal class Program
         //people.RemoveRange(1, 2);
         //people.Clear();
 
+        //ДЗ
+        //1
+        string[] items = { "sword", "shield", "potion", "sword", "potion", "potion" };
+        foreach (string item in items)
+        {
+            Console.WriteLine(item);
+        }
 
 
-        
+
 
 
 
